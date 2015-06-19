@@ -1,4 +1,4 @@
-![](media/neptune.jpg)
+![](https://raw.githubusercontent.com/jugoncalves/neptune/master/media/neptune.jpg)
 
 # neptune
 
