@@ -1,0 +1,35 @@
+{
+  "name": "neptune",
+  "version": "1.0.0",
+  "description": "small fulltext search for frontend apps",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha compiled_test/ --reporter nyan",
+    "build:js": "./node_modules/.bin/browserify src/search.js > dist/neptune.js -s neptune",
+    "build:js:min": "./node_modules/.bin/uglifyjs dist/neptune.js -o dist/neptune.min.js",
+    "compile:test": "node_modules/.bin/babel test --out-dir compiled_test",
+    "pretest": "npm run compile:test;",
+    "bundle": "npm run build:js; npm run build:js:min;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jugoncalves/neptune"
+  },
+  "author": "Ju Gonçalves <code@jugoncalv.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jugoncalves/neptune/issues"
+  },
+  "homepage": "https://github.com/jugoncalves/neptune",
+  "dependencies": {
+    "ramda": "^0.14.0",
+    "verbal-expressions": "^0.1.2"
+  },
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "browserify": "^10.2.1",
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5",
+    "uglifyjs": "^2.4.10"
+  }
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "name":"You Org",
+    "spaces":[
+      {
+        "name":"Acceleration"
+      },
+      {
+        "name":"Agile"
+      },
+      {
+        "name":"API"
+      },
+      {
+        "name":"Design"
+      },
+      {
+        "name":"Development"
+      },
+      {
+        "name":"Intranet"
+      }
+    ]
+  },
+  {
+    "name":"CopenhagenJS",
+    "spaces":[
+      {
+        "name":"ColdFront Conference"
+      },
+      {
+        "name":"CopenhagenJS"
+      },
+      {
+        "name":"Employee Network"
+      }
+    ]
+  }
+]
