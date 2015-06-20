@@ -1,6 +1,6 @@
 {
   "name": "s.neptune",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "super simple full-text search for JavaScript.",
   "main": "src/search",
   "browser": "src/search",
